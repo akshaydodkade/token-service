@@ -1,5 +1,7 @@
 # Token Information Retrieval Service
 
+Related to Access Management[https://github.com/akshaydodkade/access-management]
+
 This project implements a **Token Information Retrieval Service** that allows users to fetch token information (such as cryptocurrency data - used mock data for this project) based on their access keys. The service ensures that only valid, non-expired API keys are used, and enforces rate limits as defined in the associated **Access Key Management System**. This service is integrated with the **Access Key Management** system to validate access keys and manage rate limits.
 
 ## Features
@@ -11,7 +13,7 @@ This project implements a **Token Information Retrieval Service** that allows us
   
 ## Architecture
 
-This service functions as a **Microservice** that relies on the **Access Key Management** service for key validation and rate-limiting. The communication between the two services is **asynchronous** and relies on **Redis Pub/Sub** for real-time updates. The service uses **NestJS** to implement the core logic and integrate with **Redis**.
+This service functions as a **Microservice** that relies on the **Access Key Management** service for key validation and rate-limiting. The communication between the two services is **asynchronous** and relies on **Redis**. The service uses **NestJS** to implement the core logic and integrate with **Redis**.
 
 ## Technologies Used
 
