@@ -26,7 +26,6 @@ This service functions as a **Microservice** that relies on the **Access Key Man
 - [Node.js](https://nodejs.org/en/) >= 14
 - [Yarn](https://yarnpkg.com/)
 - [Redis](https://redis.io/)
-- [CoinGecko API Key](https://www.coingecko.com/en/api)
 
 ### Installation
 
